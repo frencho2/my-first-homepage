@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 500px;
+}
+ol {
+  font-size: 30px;
+}
+
+.friendList {
+  border-right: 1px solid gray;
+  width: 150px;
+  margin: 0px;
+  padding: 20px;
+}
+.friendInfo {
+  padding: 20px;
+}
+.musicList {
+  border-right: 1px solid gray;
+  width: 150px;
+  margin: 0px;
+  padding: 20px;
+}
+.musicInfo {
+  padding: 20px;
+}
+.main {
+  color: green;
+  text-decoration: none;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
