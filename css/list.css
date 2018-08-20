@@ -15,22 +15,13 @@ ol {
   font-size: 30px;
 }
 
-.friendList {
+.List {
   border-right: 1px solid gray;
   width: 150px;
   margin: 0px;
   padding: 20px;
 }
-.friendInfo {
-  padding: 20px;
-}
-.musicList {
-  border-right: 1px solid gray;
-  width: 150px;
-  margin: 0px;
-  padding: 20px;
-}
-.musicInfo {
+.Info {
   padding: 20px;
 }
 .main {
@@ -41,4 +32,13 @@ ol {
 #grid {
   display: grid;
   grid-template-columns: auto 1fr;
+}
+
+@media(max-width:800px) {
+  #grid{
+    display: block;
+  }
+  .List {
+    border-right: none;
+  }
 }

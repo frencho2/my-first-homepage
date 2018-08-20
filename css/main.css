@@ -18,3 +18,12 @@ a {
 .main {
   color: green;
 }
+
+@media(max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  div {
+    border-right: none;
+  }
+}
